@@ -22,7 +22,7 @@ public class LaptopController {
 
     //CRUD
     //Lista de laptops
-    @GetMapping("/api/laptops")
+    @GetMapping("/")
     public List<Laptop> findAll(){
         return laptopRepository.findAll();
     }
