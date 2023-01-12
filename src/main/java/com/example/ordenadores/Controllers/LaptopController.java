@@ -28,7 +28,7 @@ public class LaptopController {
     }
 
     //Busca laptop por id
-    @GetMapping("/api/laptops/{id}")
+    @GetMapping("/laptops/{id}")
     public ResponseEntity<Laptop> findOne(@PathVariable Long id){
         Optional<Laptop> laptopOpt = laptopRepository.findById(id);
         if (laptopOpt.isPresent()){
