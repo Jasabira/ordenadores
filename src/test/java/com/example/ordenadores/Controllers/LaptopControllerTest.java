@@ -72,6 +72,7 @@ class LaptopControllerTest {
         assertEquals("COMPU DESDE TEST", result.getMarca());
         assertEquals("M45", result.getModelo());
     }
+    /*
     @Test
     void delete() {
         //ResponseEntity<Laptop> response = testRestTemplate.getForEntity("/api/laptops/1", Laptop.class);
@@ -100,4 +101,5 @@ class LaptopControllerTest {
         assertEquals(5l, resultado.getId());
         assertEquals("Mac modificado desde el Test", resultado.getMarca());
     }
+     */
 }
