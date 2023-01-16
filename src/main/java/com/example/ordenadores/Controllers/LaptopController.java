@@ -36,6 +36,7 @@ public class LaptopController {
         }else{
             return ResponseEntity.notFound().build();
         }
+
         //return laptopOpt.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
         //return laptopOpt.orElse(null);
     }
